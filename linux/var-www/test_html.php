@@ -3,7 +3,7 @@ echo "entered procedure<br/>";
 
 $q=$_GET["icao"];
 
-@ $db = new mysqli('localhost','web_user','password','metar');
+@ $db = new mysqli('localhost','web_user','*******','metar');
 
 if (mysqli_connect_errno())
 {
